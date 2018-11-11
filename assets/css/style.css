@@ -1,0 +1,124 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 2018-11-07, 09:03:06
+    Author     : janko
+*/
+
+
+/* =============================================================
+GOOGLE FONT
+============================================================ */
+
+@import url(http://fonts.googleapis.com/css?family=Ubuntu); /* FREE GOOGLE FONT */
+@import url(http://fonts.googleapis.com/css?family=Oswald); /* FREE GOOGLE FONT */
+
+
+/* =============================================================
+GENERAL STYLES
+============================================================ */
+body {
+font-family: 'Ubuntu', sans-serif;
+color: #fff;;
+}
+
+section {
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
+
+.header {
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    text-transform: uppercase;    
+}
+
+.header h3 {
+    font-size: 24px;
+}
+
+.header hr {
+    border-top: 2px solid rgb(40,141,203);
+    width: 50px;
+}
+/*------------------------------------------------------------------------------
+Buttons styles
+-----------------------------------------------------------------------------*/
+
+.btn-custom-one {
+    background-color: transparent;
+    color: #fff;
+    border: 2px solid rgb(40,141,203);
+}
+
+.btn-custom-one:hover {
+    background-color: rgb(40,141,203);
+    color: #fff;
+    text-decoration: none;/*chyba niepotrzebne*/
+}
+
+.btn-custom-two {
+    color: #fff;
+    background-color: rgb(40,141,203);
+    border: 2px solid rgb(40,141,203);
+}
+
+.btn-custom-two:hover {
+    color: #fff;
+    background-color: transparent;
+    border: 2px solid rgb(40,141,203);
+    text-decoration: none;/*chyba niepotrzebne*/
+}
+
+.button-custom {
+    border-radius: 0;
+    -vebkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    -vebkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+    margin: 5px;
+}
+
+
+/*------------------------------------------------------------------------------
+Home
+-----------------------------------------------------------------------------*/
+
+#home {
+    text-align: center;
+    padding-top: 120px;
+    padding-bottom: 60px;
+}
+
+#home .social {
+    margin: 50px 20px;
+    display: block;/*nie wiem dlaczeg, nic nie zmienia*/
+}
+
+/*Carousel slider*/
+#carousel-slider {
+    padding: 50px 20px 5px 50px;
+}
+
+#carousel-slider h3 {
+    font-family: 'Oswald', sans-serif;
+    line-height: 50px;
+}
+
+#carousel-slider p {
+    color: rgb(40,141,203);
+    font-size: 16px;
+    line-height: 25px;
+    margin: 25px 20px;
+}
+
+
+
+
+
+
